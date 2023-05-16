@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/imagens/favicon-16x16.png">
+    <title>Projeto Pokedex</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&family=Sigmar&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+</head>
+
+<body>
+    <header>
+        <a href="#">
+            <img src="./src/imagens/pokeball.png" alt="pokebola" class="logo"/>
+        </a>
+        <button id="botao-alterar-tema">
+            <img src="./src/imagens/sun.png" alt="imagem do sol" class="imagem-botao" />
+
+        </button>
+        
+    </header>
+    <main>
+        <ul class="listagem-pokemon">
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Bulbasaur</span>
+                    <span>#001</span>
+                </div>
+                <img src="./src/imagens/bulbasaur.gif" alt="Bulbasaur" class="gif">
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">Há uma semente de planta em
+                    suas costas desde o dia que este
+                    Pókemon nasce. A semente cresce
+                    lentamente</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Ivysaur</span>
+                    <span>#002</span>
+                </div>
+                <img src="./src/imagens/ivysaur.gif" alt="Ivysaur" class="gif">
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">Quando o bulbo em suas
+                    costas cresce, parece perder a capacidade de ficar de
+                    pé em suas patas traseiras</p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Venusaur</span>
+                    <span>#003</span>
+                </div>
+                <img src="./src/imagens/venusaur.gif" alt="Venusaur" class="gif">
+                <ul class="tipos">
+                    <li class="tipo grama">Grama</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">Sua planta floresce
+                    quando está absorvendo energia solar.Ele permance em
+                    movimento para buscar luz solar.
+                </p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmander</span>
+                    <span>#004</span>
+                </div>
+                <img src="./src/imagens/charmander.gif" alt="Charmander" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+                <p class="descricao">Tem preferências por coisas
+                    quentes. Qunado chove, diz-se o vapor jorra
+                    da ponta de sua cauda.
+
+                </p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charmeleon</span>
+                    <span>#005</span>
+                </div>
+                <img src="./src/imagens/charmeleon.gif" alt="Charmeleon" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+                <p class="descricao">Tem braços relativamente longos com três garras afiadas.
+                    Suas pernas curtas têm pés com três garras.
+                    A ponta de sua cauda longa, poderosa tem uma chama acesa sobre ele.
+
+                </p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Charizard</span>
+                    <span>#006</span>
+                </div>
+                <img src="./src/imagens/charizard.gif" alt="Charizard" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fogo">Fogo</li>
+                </ul>
+                <p class="descricao">Seu fogo é incrivelmente quente,
+                    e descreveu a ser quente o suficiente para derreter rochas.
+                </p>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Squirtle</span>
+                    <span>#007</span>
+                </div>
+                <img src="./src/imagens/squirtle.gif" alt="Squirtle" class="gif">
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+                <p class="descricao">O casco de Squirtle não é apenas usado para a proteção.
+                    A forma arredondada do casco e as ranhuras em sua superfície ajudam
+                    a minimizar a resistência na água.
+                </p>
+
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Wartortle</span>
+                    <span>#008</span>
+                </div>
+                <img src="./src/imagens/wartortle.gif" alt="Wartortle" class="gif">
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+                <p class="descricao">Sua cauda é grande e coberta
+                    com uma pele rica, espessura.
+                    A cauda torna-se cada vez mais
+                    profunda em cor com a idade de Wartortle. .
+                </p>
+
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Blastoise</span>
+                    <span>#009</span>
+                </div>
+                <img src="./src/imagens/blastoise.gif" alt="Blastoise" class="gif">
+                <ul class="tipos">
+                    <li class="tipo agua">Água</li>
+                </ul>
+                <p class="descricao">Ele tem canhões de água
+                    que se projetam de seu casco.
+                    Os canhões de água são muito precisos.
+                </p>
+
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Caterpie</span>
+                    <span>#010</span>
+                </div>
+                <img src="./src/imagens/caterpie.gif" alt="Caterpie" class="gif">
+                <ul class="tipos">
+                    <li class="tipo inseto">Inseto</li>
+                </ul>
+                <p class="descricao">Sua característica mais notável
+                    é a brilhante antena vermelha em sua cabeça,
+                    a partir do qual ele libera um cheiro para repelir predadores..
+                </p>
+            </li>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Gastly</span>
+                    <span>#011</span>
+                </div>
+                <img src="./src/imagens/gastly.png" alt="Gastly" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fantasma">Fantasma</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">Ele é composto em maior parte por gás.
+                    Se exposto a um vento bem forte,
+                    seu corpo gasoso se desforma.
+                </p>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Haunter</span>
+                    <span>#012</span>
+                </div>
+                <img src="./src/imagens/haunter.png" alt="Haunter" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fantasma">Fantasma</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">Ele se esconde em lugares
+                    muito escuros,
+                    onde traça a vida da próxima coisa viva que se aproxima.
+                </p>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Gengar</span>
+                    <span>#013</span>
+                </div>
+                <img src="./src/imagens/gengar.png" alt="Gengar" class="gif">
+                <ul class="tipos">
+                    <li class="tipo fantasma">Fantasma</li>
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">De vez em quando, em noites bem escuras,
+                    a sua sombra vai crescer, ficar disforme e te passar.
+                    Isso na verdade é Gengar passando por você, fingindo ser sua sombra.
+                </p>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Koffing</span>
+                    <span>#014</span>
+                </div>
+                <img src="./src/imagens/koffing.png" alt="Koffing" class="gif">
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao">Se Koffing ficar agitado,
+                    ele aumenta a toxidade de seus gases internos
+                    e os jorra de todo o corpo.
+                </p>
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span>Weezing</span>
+                    <span>#015</span>
+                </div>
+                <img src="./src/imagens/weezing.png" alt="Weezing" class="gif">
+                <ul class="tipos">
+                    <li class="tipo veneno">Veneno</li>
+                </ul>
+                <p class="descricao"> Ele tem 10% de chance
+                    de fazer o oponente recuar
+                    ao ser atingido por um movimento prejudicial
+                </p>
+
+
+            </li>
+
+        </ul>
+    </main>
+    <script src="./src/js/index.js" ></script>
+</body>
+
+</html>
+
